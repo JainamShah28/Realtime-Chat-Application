@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .primary-input {
+        @apply w-full text-white border-2 border-[#4e0eff] bg-transparent py-2 px-3 rounded-md mt-6 focus:outline-none focus:border-[#997af0]
+    }
+
+    .btn-primary {
+        @apply font-bold text-center bg-[#997af0] text-white hover:bg-[#4e0eff] rounded-md py-3 text-sm transition-all duration-300 ease-linear
+    }
+
+    .error-text {
+        @apply text-red-600 font-normal text-xs mt-2 self-start
+    }
+
+    .chat-container {
+        display: grid;
+        grid-template-columns: 35% 65%
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .chat-container {
+            display: grid;
+            grid-template-columns: 25% 75%
+        }
+    }
+
+    .left {
+        display: grid;
+        grid-template-rows: 10% 70% 15%;
+        grid-row-gap: 1rem
+    }
+
+    .contacts-container::-webkit-scrollbar {
+        width: 0.2rem
+    }
+
+    .contacts-container::-webkit-scrollbar-thumb {
+        background-color: #ffffff39;
+        border-radius: 4px 
+    }
+
+    .emoji-picker-react {
+        background-color: #080420 !important;
+        box-shadow: 0 5px 10px #9a86f3 !important;
+        border-color: #9186f3 !important
+    }
+
+    .emoji-picker-react .emoji-categories button {
+        filter: contrast(0) !important
+    }
+
+    .emoji-picker-react .emoji-search {
+        background-color: transparent !important;
+        border-color: #9186f3 !important
+    }
+
+    .emoji-picker-react .emoji-group::before {
+        background-color: #080420 !important
+    }
+
+    .emoji-picker-react .emoji-scroll-wrapper::-webkit-scrollbar {
+        background-color: #080420 !important;
+        width: 5px !important
+    }
+
+    .emoji-picker-react .emoji-scroll-wrapper::-webkit-scrollbar-thumb {
+        background-color: #9186f3 !important
+    }
+
+    .message {
+        @apply w-fit max-w-[40%] break-words text-[#d1d1d1] px-3 py-2 rounded-lg
+    }
+
+    .sender {
+        @apply bg-[#4f04ff21] self-end
+    }
+
+    .reciever {
+        @apply bg-[#9900ff20] self-start
+    }
+
+    .messages::-webkit-scrollbar {
+        width: 0.2rem
+    }
+
+    .messages::-webkit-scrollbar-thumb {
+        background-color: #ffffff39;
+        border-radius: 4px 
+    }
+}
