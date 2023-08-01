@@ -26,4 +26,4 @@ Snappy is a real-time chat application built using React.js, Tailwind CSS, Socke
 1. Start the server: `npm start`
 2. Open the application in your browser at `http://localhost:5000`
 3. Start the client side: `npm start`
-4. Open the application in your browser at 'http://localhost:3000`
+4. Open the application in your browser at `http://localhost:3000`
