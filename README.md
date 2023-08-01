@@ -12,8 +12,7 @@ Snappy is a real-time chat application built using React.js, Tailwind CSS, Socke
 
 ## Screenshots
 
-![Screenshot 1](https://drive.google.com/file/d/1twdkdGP0mjTc2dqulVyqN0qHHybX3aP8/view?usp=drive_link)
-![Screenshot 2](/images/screenshot_2.png)
+View Screenshots of the application at [here](https://drive.google.com/drive/folders/1-CdaLue3WJUbYesgKOssEb77M8myjIfj?usp=drive_link).
 
 ## Installation
 
